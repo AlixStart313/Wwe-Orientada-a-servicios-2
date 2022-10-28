@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kofExamen:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>kofExamen</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="kofExamen-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="kofExamen:war exploded" />
+    </root>
+  </artifact>
+</component>
